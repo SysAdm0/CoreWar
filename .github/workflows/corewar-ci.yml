@@ -20,9 +20,7 @@ jobs:
       run:  cd corewar && make
     - name: Test 3 -> asm in advanced build
       run:  cd asm && gcc -o test src/*.o -I./include -g3 -Wall -Werror
-    - name: Test 4 -> vm in advanced build
-      run:  cd corewar && gcc -o test lib/*.o src/*.o bonus/*.o -I./include -g3 -Wall -Werror
-    - name: Test 5 -> asm binary without arguments
+    - name: Test 4 -> asm binary without arguments
       run: cd asm && ./asm
-    - name: Test 6 -> vm binary without arguments
+    - name: Test 5 -> vm binary without arguments
       run: cd corewar && ./corewar
