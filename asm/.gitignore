@@ -1,0 +1,13 @@
+*
+!**/
+!*.*
+*.s
+*.cor
+NormEZ.rb
+CMakeLists.txt
+cmake-build-debug/CMakeFiles/
+*.o
+.idea/
+.bash_history
+.history
+vgcore.*
